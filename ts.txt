@@ -1,0 +1,7 @@
+  
+        const UserDetails = {
+                              EmailAddress: form['Email'],
+                              Password: btoa(form['Password']),
+                            };
+        this.service.loginUser(UserDetails).subscribe((data) => {}
+          //
